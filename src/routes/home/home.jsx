@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Directory from "../../components/directory/directory";
 
 const Home = () => {
@@ -28,8 +29,10 @@ const Home = () => {
       imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
     },
   ];
-
-  return <Directory categories={categories} />;
+// wherever the Outlet is rendered, is where the nesting structure will render
+  return (
+  
+  <Directory categories={categories} />);
 };
 
 export default Home;
