@@ -34,7 +34,7 @@ const SignIn = () => {
         email,
         password
       );
-      // setCurrentUser(user);
+
       resetFormFields();
     } catch (e) {
       switch (e.code) {
