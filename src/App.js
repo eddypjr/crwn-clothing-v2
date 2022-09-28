@@ -1,11 +1,10 @@
 import { Routes, Route } from "react-router-dom";
+
 import Home from "./routes/home/home";
 import Navigation from "./routes/navigation/navigation";
 import Authentication from "./routes/authentication/authentication";
+import Shop from "./routes/shop/shop";
 
-const Shop = () => {
-  return <h1>I am shop</h1>
-}
 // index === index={true}
 // for index, when the / is matched, render both navigation and home
 const App = () => {
