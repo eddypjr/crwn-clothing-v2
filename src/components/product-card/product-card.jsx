@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import Button from "../button/button";
+import Button from "../custom-button/custom-button";
 import { CartContext } from "../../contexts/cart.context";
 
 import {
