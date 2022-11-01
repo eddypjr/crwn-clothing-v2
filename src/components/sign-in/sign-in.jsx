@@ -81,8 +81,9 @@ const SignIn = () => {
         <ButtonsContainer>
           <Button type="submit">Sign In</Button>
           <Button
-            type="button"
+            buttonType={BUTTON_TYPE_CLASSES.google}
             onClick={signInWithGoogle}
+            type="button"
             isGoogleSignIn
           >
             Sign In With Google

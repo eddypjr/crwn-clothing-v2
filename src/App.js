@@ -8,7 +8,7 @@ import Checkout from "./routes/checkout/checkout";
 
 const App = () => {
   return (
-    <div>
+    <>
       <GlobalStyle />
       <Routes>
         <Route path="/" element={<Navigation />}>
@@ -18,7 +18,7 @@ const App = () => {
           <Route path="checkout" element={<Checkout />} />
         </Route>
       </Routes>
-    </div>
+    </>
   );
 };
 
