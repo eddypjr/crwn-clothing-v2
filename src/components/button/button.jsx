@@ -2,7 +2,7 @@ import {
   BaseButton,
   GoogleSignInButton,
   InvertedButton,
-} from "./custom-button.styles";
+} from "./button.styles";
 
 export const BUTTON_TYPE_CLASSES = {
   base: "base",
@@ -17,7 +17,7 @@ const getButton = (buttonType = BUTTON_TYPE_CLASSES.base) =>
     [BUTTON_TYPE_CLASSES.inverted]: InvertedButton,
   }[buttonType]);
 
-export const CustomButton = ({ children, buttonType, ...props }) => {
+export const Button = ({ children, buttonType, ...props }) => {
   const CustomButtonContainer = getButton(buttonType);
   return (
   <CustomButtonContainer {...props}>
@@ -26,4 +26,4 @@ export const CustomButton = ({ children, buttonType, ...props }) => {
   )
 };
 
-export default CustomButton;
+export default Button;
