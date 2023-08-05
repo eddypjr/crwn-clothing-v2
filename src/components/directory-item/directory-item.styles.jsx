@@ -16,6 +16,7 @@ export const Body = styled.div`
   align-items: center;
   justify-content: center;
   border: 1px solid black;
+  border-radius: 0.625rem;
   background-color: white;
   opacity: 0.7;
   position: absolute;
@@ -34,7 +35,13 @@ export const Body = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    border-radius: 0.625rem;
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 14px;
+    }
   }
 `;
 

@@ -61,4 +61,5 @@ export const FooterLink = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 5px;
 `;

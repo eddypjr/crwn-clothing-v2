@@ -13,6 +13,7 @@ export const NavigationContainer = styled.div`
   @media screen and (max-width: 800px) {
     height: 3.75rem;
     padding: 0 5%;
+    margin-bottom: 1.25rem;
   }
 `;
 
@@ -40,4 +41,8 @@ export const NavLinksContainer = styled.div`
 export const NavLink = styled(Link)`
   padding: 0.625rem 0.938rem;
   cursor: pointer;
+
+  @media screen and (max-width: 800px) {
+    padding: 0.438rem 0.75rem;
+  }
 `;

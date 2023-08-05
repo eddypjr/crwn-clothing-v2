@@ -7,10 +7,6 @@ body {
   font-family: 'Titillium Web';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media screen and (max-width: 800px) {
-    padding: 0.625rem;
-  }
 }
 
 code {
