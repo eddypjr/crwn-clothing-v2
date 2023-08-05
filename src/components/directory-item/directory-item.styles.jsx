@@ -32,24 +32,28 @@ export const Body = styled.div`
     font-weight: lighter;
     font-size: 16px;
   }
+
+  @media screen and (max-width: 480px) {
+    border-radius: 0.625rem;
+  }
 `;
 
 export const DirectoryItemContainer = styled.div`
   min-width: 30%;
-  // height: 15rem;
   height: 40vh;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
-  margin: 0 7.5px 0.938rem;
+  border-radius: 0.75rem;
+  margin: 0 0.469rem 0.938rem;
   overflow: hidden;
   &:first-child {
-    margin-right: 7.5px;
+    margin-right: 0.469rem;
   }
   &:last-child {
-    margin-left: 7.5px;
+    margin-left: 0.469rem;
   }
   &:hover {
     cursor: pointer;
@@ -61,7 +65,9 @@ export const DirectoryItemContainer = styled.div`
       opacity: 0.9;
     }
   }
+
   @media screen and (max-width: 480px) {
-    // height: 25vh;
+    height: 26vh;
+    min-width: 40%;
   }
 `;
