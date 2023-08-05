@@ -11,10 +11,17 @@ export const SignInContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     padding-bottom: 1.25rem;
+    width: 90%;
   }
 `;
 
 export const ButtonsContainer = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 800px) {
+    button {
+      width: 100%;
+    }
+  }
 `;
