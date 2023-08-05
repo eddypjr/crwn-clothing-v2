@@ -1,12 +1,12 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const BaseButton = styled.button`
   min-width: 165px;
   width: auto;
-  height: 50px;
+  height: 3.125rem;
   letter-spacing: 0.5px;
-  padding: 0 35px 0 35px;
-  font-size: 15px;
+  padding: 0 2.188rem 0 2.188rem;
+  font-size: 0.938rem;
   background-color: black;
   color: white;
   text-transform: uppercase;
@@ -22,7 +22,7 @@ export const BaseButton = styled.button`
   &:hover {
     background-color: white;
     color: black;
-    border: 0.625rem solid black;
+    border: 1px solid black;
   }
 `;
 

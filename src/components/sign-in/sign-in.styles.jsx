@@ -1,4 +1,3 @@
-
 import styled from 'styled-components';
 
 export const SignInContainer = styled.div`
@@ -7,11 +6,11 @@ export const SignInContainer = styled.div`
   width: 380px;
 
   h2 {
-    margin: 10px 0;
+    margin: 0.625rem 0;
   }
 
   @media screen and (max-width: 800px) {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
   }
 `;
 

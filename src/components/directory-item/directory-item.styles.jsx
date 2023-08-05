@@ -10,7 +10,7 @@ export const BackgroundImage = styled.div`
 
 export const Body = styled.div`
   height: 90px;
-  padding: 50px 20px;
+  padding: 3.125rem 1.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@ export const Body = styled.div`
 
   h2 {
     font-weight: bold;
-    margin: 0 6px 0;
+    margin: 0 0.375rem 0;
     font-size: 22px;
     color: #4a4a4a;
     text-transform: uppercase;
@@ -36,13 +36,14 @@ export const Body = styled.div`
 
 export const DirectoryItemContainer = styled.div`
   min-width: 30%;
-  height: 240px;
+  // height: 15rem;
+  height: 40vh;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
-  margin: 0 7.5px 15px;
+  margin: 0 7.5px 0.938rem;
   overflow: hidden;
   &:first-child {
     margin-right: 7.5px;
@@ -60,7 +61,7 @@ export const DirectoryItemContainer = styled.div`
       opacity: 0.9;
     }
   }
-  @media screen and (max-width: 800px) {
-    height: 200px;
+  @media screen and (max-width: 480px) {
+    // height: 25vh;
   }
 `;

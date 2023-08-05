@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ProductCardContainer = styled.div`
   width: 100%;
@@ -20,7 +20,7 @@ export const ProductCardContainer = styled.div`
     width: 80%;
     opacity: 0.7;
     position: absolute;
-    top: 255px;
+    top: 32vh;
     display: none;
   }
 
@@ -36,6 +36,10 @@ export const ProductCardContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     height: 100%;
+
+    button {
+      top: 70%;
+    }
   }
 `;
 
@@ -49,7 +53,7 @@ export const Footer = styled.div`
 
 export const Name = styled.span`
   width: 90%;
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
 `;
 
 export const Price = styled.span`

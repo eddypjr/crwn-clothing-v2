@@ -1,18 +1,18 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const CheckoutItemContainer = styled.div`
   width: 100%;
   display: flex;
   min-height: 100px;
   border-bottom: 1px solid darkgrey;
-  padding: 15px 0;
-  font-size: 20px;
+  padding: 0.938rem 0;
+  font-size: 1.25rem;
   align-items: center;
 `;
 
 export const ImageContainer = styled.div`
   width: 23%;
-  padding-right: 15px;
+  padding-right: 0.938rem;
 
   img {
     width: 100%;
@@ -33,7 +33,7 @@ export const Arrow = styled.div`
 `;
 
 export const Value = styled.span`
-  margin: 0 10px;
+  margin: 0 0.625rem;
 `;
 
 export const RemoveButton = styled.div`
