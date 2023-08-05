@@ -7,7 +7,8 @@ export const CartItemContainer = styled.div`
   margin-bottom: 0.938rem;
 
   img {
-    width: 30%;
+    width: 40%;
+    border-radius: 0.625rem;
   }
 `;
 

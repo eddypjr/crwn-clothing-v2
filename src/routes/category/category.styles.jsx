@@ -26,6 +26,10 @@ export const ProductCardContainer = styled.div`
   @media screen and (max-width: 800px) {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  @media screen and (max-width: 480px) {
+   width: 100%;
+  }
 `;
 
 export const CategoryTitle = styled.h2`
