@@ -41,6 +41,12 @@ export const ProductCardContainer = styled.div`
       top: 70%;
     }
   }
+
+  @media screen and (max-width: 480px) {
+    button {
+      top: 70%;
+    }
+  }
 `;
 
 export const Footer = styled.div`

@@ -14,7 +14,7 @@ export const BaseButton = styled.button`
   font-weight: bolder;
   border: none;
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   border-radius: 0.625rem;
@@ -23,6 +23,10 @@ export const BaseButton = styled.button`
     background-color: white;
     color: black;
     border: 1px solid black;
+  }
+
+  @media screen and (max-width: 480px) {
+    min-width: 0px;
   }
 `;
 
@@ -37,6 +41,10 @@ export const InvertedButton = styled(BaseButton)`
     color: white;
     border: none;
   }
+
+  @media screen and (max-width: 480px) {
+    padding: 0;
+  }
 `;
 
 export const GoogleSignInButton = styled(BaseButton)`
@@ -47,5 +55,9 @@ export const GoogleSignInButton = styled(BaseButton)`
   &:hover {
     background-color: #357ae8;
     border: none;
+  }
+
+  @media screen and (max-width: 480px) {
+    min-width: 0px;
   }
 `;

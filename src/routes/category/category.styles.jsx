@@ -3,6 +3,15 @@ import styled from 'styled-components';
 export const CategoryContainer = styled.div`
   width: 100%;
   display: grid;
+  margin-bottom: 2%;
+
+  @media screen and (max-width: 800px) {
+    margin-bottom: 5%;
+  }
+
+  @media screen and (max-width: 480px) {
+    margin-bottom: 6%;
+  }
 `;
 
 export const ProductCardContainer = styled.div`
@@ -20,7 +29,13 @@ export const ProductCardContainer = styled.div`
 `;
 
 export const CategoryTitle = styled.h2`
-  font-size: 38px;
+  font-size: 28px;
   margin-bottom: 1.563rem;
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
+
+  @media screen and (max-width: 800px) {
+    text-align: center;
+    margin-left: 0;
+  }
 `;

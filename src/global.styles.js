@@ -3,7 +3,9 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
 body {
   margin: 0;
-  // padding: 1.25rem 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: 'Titillium Web';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

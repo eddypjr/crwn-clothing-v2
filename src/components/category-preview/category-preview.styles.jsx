@@ -5,9 +5,13 @@ export const CategoryPreviewContainer = styled.div`
   display: flex;
   width: 90%;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 2%;
   @media screen and (max-width: 800px) {
     align-items: center;
+    margin-bottom: 5%;
+  }
+  @media screen and (max-width: 480px) {
+    margin-bottom: 6%;
   }
 `;
 
