@@ -1,1 +1,1 @@
-### Welcome to Greatwill Clothing!s6t
+### Greatwill Clothing Co.

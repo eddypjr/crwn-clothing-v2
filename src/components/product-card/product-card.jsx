@@ -16,20 +16,23 @@ const ProductCard = ({ product }) => {
   const addProductToCart = () => addItemToCart(product);
 
   return (
-    <ProductCardContainer>
-      <img src={imageUrl} alt={`${name}`} />
-      <Footer>
-        <Name>{name}</Name>
-        <Price>{price}</Price>
-      </Footer>
+    <>
+      <ProductCardContainer>
+        <img src={imageUrl} alt={`${name}`} />
 
-      <Button
-        buttonType={BUTTON_TYPE_CLASSES.inverted}
-        onClick={addProductToCart}
-      >
-        Add to Cart
-      </Button>
-    </ProductCardContainer>
+        <Footer>
+          <Name>{name}</Name>
+          <Price>{price}</Price>
+        </Footer>
+
+        <Button
+          buttonType={BUTTON_TYPE_CLASSES.inverted}
+          onClick={addProductToCart}
+        >
+          Add to Cart
+        </Button>
+      </ProductCardContainer>
+    </>
   );
 };
 
