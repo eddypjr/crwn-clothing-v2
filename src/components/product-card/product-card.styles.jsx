@@ -4,7 +4,7 @@ export const ProductCardContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 40vh;
   align-items: center;
   position: relative;
 
@@ -13,6 +13,7 @@ export const ProductCardContainer = styled.div`
     height: 95%;
     object-fit: cover;
     margin-bottom: 5px;
+    border-radius: 1.173rem;
   }
 
   button {
@@ -33,7 +34,9 @@ export const ProductCardContainer = styled.div`
     }
   }
 
-  
+  @media screen and (max-width: 800px) {
+    height: 100%;
+  }
 `;
 
 export const Footer = styled.div`
