@@ -24,11 +24,14 @@ export const ProductCardContainer = styled.div`
   padding: 0 5%;
 
   @media screen and (max-width: 800px) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0.938rem;
+    grid-row-gap: 1.563rem;
   }
-
   @media screen and (max-width: 480px) {
-   width: 100%;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1.563rem;
+    width: 100%;
   }
 `;
 

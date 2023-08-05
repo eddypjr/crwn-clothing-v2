@@ -6,7 +6,7 @@ export const NavigationContainer = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.063rem solid #d3d3d3;
+  border-bottom: 0.063rem solid #e9ebee;
   align-items: center;
 
   @media screen and (max-width: 800px) {

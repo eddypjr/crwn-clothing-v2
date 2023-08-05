@@ -25,3 +25,10 @@ export const ButtonsContainer = styled.div`
     }
   }
 `;
+
+export const Underline = styled.div`
+  width: 100%;
+  background-color: #e9ebee;
+  height: 0.063rem;
+  margin: 5% 0;
+`;

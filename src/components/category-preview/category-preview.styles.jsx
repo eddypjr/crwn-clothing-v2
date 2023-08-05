@@ -22,9 +22,9 @@ export const Title = styled(Link)`
 `;
 
 export const Preview = styled.div`
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-column-gap: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.25rem;
 
   @media screen and (max-width: 800px) {
     grid-template-columns: 1fr 1fr;
