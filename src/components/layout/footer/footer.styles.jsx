@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const FooterContainer = styled.div`
+export const FooterContainer = styled.footer`
   display: flex;
   width: 100%;
   height: 3.75rem;
@@ -9,7 +9,6 @@ export const FooterContainer = styled.div`
   background-color: #201b21;
   color: #d9dbe1;
   font-size: 0.875rem;
-  margin-top: auto;
   bottom: 0;
 
   @media screen and (max-width: 480px) {

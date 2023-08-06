@@ -5,7 +5,6 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   font-family: 'Titillium Web';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
