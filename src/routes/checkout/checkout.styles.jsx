@@ -5,7 +5,6 @@ export const Container = styled.div`
   margin-top: 1.563rem;
   display: flex;
   justify-content: center;
-  // align-items: center;
 `;
 
 export const CheckoutContainer = styled.div`
@@ -48,7 +47,7 @@ export const HeaderBlock = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
     &:last-child {
       width: 11%;
@@ -57,12 +56,12 @@ export const HeaderBlock = styled.div`
 `;
 
 export const Total = styled.span`
-  margin-top: 30px;
+  margin-top: 1.875rem;
   margin-left: auto;
-  font-size: 36px;
+  font-size: 2.25rem;
   margin-bottom: 2%;
 
   @media screen and (max-width: 480px) {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 `;

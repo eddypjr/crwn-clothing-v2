@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const AuthenticationContainer = styled.div`
   display: flex;
-  width: 900px;
+  width: 56.25rem;
   justify-content: space-between;
-  margin: 30px auto;
+  margin: 1.875rem auto;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;

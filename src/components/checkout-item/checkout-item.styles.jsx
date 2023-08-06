@@ -26,17 +26,17 @@ export const ImageContainer = styled.div`
     img {
       width: 75%;
       height: 75%;
-      max-width: 40px;
+      max-width: 2.5rem;
     }
   }
 `;
 
 export const BaseSpan = styled.span`
   width: 23%;
-  padding-left: 5px;
+  padding-left: 0.313rem;
 
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 1rem;
   }
 `;
 
@@ -53,6 +53,6 @@ export const Value = styled.span`
 `;
 
 export const RemoveButton = styled.div`
-  padding-left: 12px;
+  padding-left: 0.75rem;
   cursor: pointer;
 `;

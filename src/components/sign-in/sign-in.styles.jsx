@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const SignInContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 380px;
+  width: 23.75rem;
+  margin-left: 5%;
 
   h2 {
     margin: 0.625rem 0;
@@ -12,6 +13,7 @@ export const SignInContainer = styled.div`
   @media screen and (max-width: 800px) {
     padding-bottom: 1.25rem;
     width: 90%;
+    margin-left: 0;
   }
 `;
 
@@ -27,8 +29,10 @@ export const ButtonsContainer = styled.div`
 `;
 
 export const Underline = styled.div`
-  width: 100%;
-  background-color: #e9ebee;
-  height: 0.063rem;
-  margin: 5% 0;
+width: 100%;
+margin: 5% 0;
+height: 0.063rem;
+  @media screen and (max-width: 800px) {
+    background-color: #e9ebee;
+  }
 `;

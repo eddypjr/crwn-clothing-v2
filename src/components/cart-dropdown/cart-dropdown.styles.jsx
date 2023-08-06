@@ -11,7 +11,7 @@ export const CartDropdownContainer = styled.div`
   border: 1px solid black;
   background-color: white;
   top: 6%;
-  right: 40px;
+  right: 2.5rem;
   z-index: 5;
 `;
 
@@ -22,7 +22,7 @@ export const CartDropdownButton = styled(Button)`
 CartDropdownButton.displayName = 'CartDropdownButton';
 
 export const EmptyMessageContainer = styled.span`
-  font-size: 18px;
+  font-size: 1.125rem;
   margin: 3.125rem auto;
 `;
 

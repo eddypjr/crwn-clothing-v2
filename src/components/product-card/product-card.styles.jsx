@@ -12,7 +12,7 @@ export const ProductCardContainer = styled.div`
     width: 100%;
     height: 95%;
     object-fit: cover;
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
     border-radius: 1.173rem;
   }
 
@@ -54,7 +54,7 @@ export const Footer = styled.div`
   height: 5%;
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 1.125rem;
 `;
 
 export const Name = styled.span`

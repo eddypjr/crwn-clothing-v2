@@ -35,9 +35,9 @@ export const LogoContainer = styled.div`
 `;
 
 export const Logo = styled.img`
-width: 40px;
-height: 25px;
-`
+  width: 2.5rem;
+  height: 1.563rem;
+`;
 
 export const CopyrightContainer = styled.div`
   display: flex;
@@ -60,5 +60,5 @@ export const FooterLink = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 5px;
+  padding: 0 0.313rem;
 `;

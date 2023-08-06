@@ -36,7 +36,7 @@ export const ProductCardContainer = styled.div`
 `;
 
 export const CategoryTitle = styled.h2`
-  font-size: 28px;
+  font-size: 1.75rem;
   margin-bottom: 1.563rem;
   text-align: left;
   margin-left: 5%;

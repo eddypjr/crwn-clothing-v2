@@ -33,7 +33,7 @@ const Home = () => {
       route: "shop/mens",
     },
   ];
-  // wherever the Outlet is rendered, is where the nesting structure will render
+
   return <Directory categories={categories} />;
 };
 

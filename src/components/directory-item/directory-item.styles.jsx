@@ -10,7 +10,7 @@ export const BackgroundImage = styled.div`
 
 export const Body = styled.div`
   height: 90px;
-  padding: 3.125rem 1.25rem;
+  padding: 3.125rem 3.438rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@ export const Body = styled.div`
   position: absolute;
 
   h2 {
-    font-weight: bold;
+    font-weight: 700;
     margin: 0 0.375rem 0;
     font-size: 22px;
     color: #4a4a4a;
@@ -31,16 +31,20 @@ export const Body = styled.div`
 
   p {
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 1rem;
+  }
+
+  @media screen and (max-width: 800px) {
+    padding: 0.938rem 1.25rem;
   }
 
   @media screen and (max-width: 480px) {
     h2 {
-      font-size: 20px;
+      font-size: 1.25rem;
     }
 
     p {
-      font-size: 14px;
+      font-size: 0.875rem;
     }
   }
 `;
@@ -75,6 +79,6 @@ export const DirectoryItemContainer = styled.div`
 
   @media screen and (max-width: 480px) {
     height: 26vh;
-    min-width: 40%;
+    min-width: 45%;
   }
 `;
